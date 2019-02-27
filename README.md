@@ -21,7 +21,7 @@ at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 You can then install this widget. Put in your composer.json in require case:
 
 `
-"vitalik74/yii2-bootstrap-wysihtml5-widget": "*"
+"medeirosinacio/yii2-bootstrap-wysihtml5-widget-updated": "*"
 `
 
 And run command "composer update"

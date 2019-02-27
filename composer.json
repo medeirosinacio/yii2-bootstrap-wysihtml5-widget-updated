@@ -1,5 +1,5 @@
 {
-    "name": "vitalik74/yii2-bootstrap-wysihtml5-widget",
+    "name": "medeirosinacio/yii2-bootstrap-wysihtml5-widget-updated",
     "description": "The simple WYSIWYG editor widget based on bootstrap3-wysihtml5 for Yii2 framework.",
     "type": "yii2-extension",
     "keywords": [
@@ -16,32 +16,31 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Tsibikov Vitaliy",
-            "email": "tsibikov_vit@mail.ru",
-            "homepage": "http://tsibikov.com",
+            "name": "Douglas Medeiros",
+            "email": "medeirosinacio@outlook.com",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/vitalik74/yii2-bootstrap-wysihtml5-widget/issues?state=open",
-        "source": "https://github.com/vitalik74/yii2-bootstrap-wysihtml5-widget",
-        "email": "tsibikov_vit@mail.ru"
+        "issues": "https://github.com/medeirosinacio/yii2-bootstrap-wysihtml5-widget-updated/issues?state=open",
+        "source": "https://github.com/medeirosinacio/yii2-bootstrap-wysihtml5-widget-updated",
+        "email": "medeirosinacio@outlook.com"
     },
     "require": {
         "yiisoft/yii2": "*"
     },
     "autoload": {
         "psr-4": {
-            "vitalik74\\wysihtml5\\": ""
+            "medeirosinacio\\wysihtml5\\": ""
         }
     },
     "repositories": {
         "type": "package",
         "package": {
-            "name": "vitalik74/yii2-bootstrap-wysihtml5-widget",
+            "name": "medeirosinacio/yii2-bootstrap-wysihtml5-widge-updatedt",
             "version": "stable-master",
             "source": {
-                "url": "git://github.com/vitalik74/yii2-bootstrap-wysihtml5-widget.git",
+                "url": "git://github.com/medeirosinacio/yii2-bootstrap-wysihtml5-widget-updated.git",
                 "type": "git",
                 "reference": "master"
             }

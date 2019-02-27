@@ -32,17 +32,17 @@ USAGE
 ###Base usage like that:###
 
 ```
-echo vitalik74\wysihtml5\Widget::widget([
+echo medeirosinacio\wysihtml5\Widget::widget([
      'options' => [
          'id' => 'test',
          'style' => 'width: 810px; height: 200px',
          'placeholder' => "Placeholder text ..."
      ],
      'wysiOptions' => [
-		'toolbar' => [
-			'locale' => 'pt-BR',
-			'emphasis' => false,
-			'font-styles' => false,
+	'toolbar' => [
+		'locale' => 'pt-BR',
+		'emphasis' => false,
+		'font-styles' => false,
 		]
 	]
  ]);
@@ -51,7 +51,8 @@ echo vitalik74\wysihtml5\Widget::widget([
 ###In `ActiveForm` use like that:###
   
  ```
- <?= $form->field($model, 'body')->widget(\vitalik74\wysihtml5\Widget::className(), ['options' => [
+ <?= $form->field($model, 'body')->widget(\medeirosinacio\wysihtml5\Widget::className(), [
+ 'options' => [
       'id' => 'test',
       'style' => 'width: 810px; height: 200px',
       'placeholder' => "Placeholder text ..."

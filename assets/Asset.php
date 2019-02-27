@@ -5,7 +5,7 @@
  * Create date: 25.02.2015 17:35
  */
 
-namespace vitalik74\wysihtml5\assets;
+namespace medeirosinacio\wysihtml5\assets;
 
 
 use yii\web\AssetBundle;
@@ -15,7 +15,7 @@ class Asset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@vitalik74/wysihtml5/assets';
+    public $sourcePath = '@medeirosinacio/wysihtml5/assets';
 
     /**
      * @inheritdoc

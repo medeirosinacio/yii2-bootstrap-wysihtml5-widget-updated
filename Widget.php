@@ -5,9 +5,9 @@
  * Create date: 25.02.2015 17:07
  */
 
-namespace vitalik74\wysihtml5;
+namespace medeirosinacio\wysihtml5;
 
-use vitalik74\wysihtml5\assets\Asset;
+use medeirosinacio\wysihtml5\assets\Asset;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\widgets\InputWidget;

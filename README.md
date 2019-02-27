@@ -38,6 +38,13 @@ echo vitalik74\wysihtml5\Widget::widget([
          'style' => 'width: 810px; height: 200px',
          'placeholder' => "Placeholder text ..."
      ],
+     'wysiOptions' => [
+		'toolbar' => [
+			'locale' => 'pt-BR',
+			'emphasis' => false,
+			'font-styles' => false,
+		]
+	]
  ]);
 ``` 
  
@@ -48,5 +55,12 @@ echo vitalik74\wysihtml5\Widget::widget([
       'id' => 'test',
       'style' => 'width: 810px; height: 200px',
       'placeholder' => "Placeholder text ..."
-  ],]) ?>
+  ],
+       'wysiOptions' => [
+		'toolbar' => [
+			'locale' => 'pt-BR',
+			'emphasis' => false,
+			'font-styles' => false,
+		]
+	]]) ?>
 ```
